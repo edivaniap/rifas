@@ -1,0 +1,37 @@
+@font-face {
+     font-family: Comfortaa;
+     src: url('Comfortaa-Regular.ttf');
+}
+
+body {
+	background-color: #000;
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-position: top center;
+	font-family: Comfortaa;
+	color: white;
+}
+
+h1 {    
+    font-size: 30pt;
+}
+
+input, form {
+	font-family: Comfortaa;
+	font-size: 18pt;
+	margin-top: 7px;
+	margin-bottom: 7px;	
+	padding-right: 10px;	
+	padding-left: 10px;	
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 2px 2px 2px 2px;
+    border: 2px solid purple;
+    border-radius: 5px;
+} 
+div {
+    border: 2px solid purple;
+    width: 1654px;
+    height: 2339px;
+} 
